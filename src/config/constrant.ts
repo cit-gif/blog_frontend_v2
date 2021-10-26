@@ -1,0 +1,21 @@
+// export const serverApi: any = process.env.serverApi;
+// const url = new URL(serverApi);
+// export const hostApi = url.hostname;
+// export const qualityImage = 100;
+// export const limitFindUser = 20;
+// export const limitFindGroupProduct = 10;
+
+export * from './index.js';
+export const endUrlSlug = '.html';
+export const endUrlSlugLength = endUrlSlug.length;
+export const urlByCategory: string = 'danh-muc';
+export const urlByPost: string = 'bai-viet';
+export const urlByTag: string = 'the';
+export const urlByAuthor: string = 'tac-gia';
+export const urlBySearch: string = 'tim-kiem';
+export const urlByPage: string = 'trang';
+// export const httpUrl: string = 'http://localhost:3000/';
+// export const _httpUrl = 'http://localhost:3000';
+export const httpUrl = process.env.httpUrl || '';
+export const _httpUrl = process.env.httpUrl_ || '';
+// export const appName: string = 'daututhongminhphs';

@@ -1,0 +1,25 @@
+export { FiEye as MyEyeIcon } from 'react-icons/fi';
+export { AiOutlineLike as MyLikeIcon } from 'react-icons/ai';
+export { AiOutlineDislike as MyOutlineDislike } from 'react-icons/ai';
+export { FaUser as MyUserIcon } from 'react-icons/fa';
+export { BiTimeFive as MyTimeIcon } from 'react-icons/bi';
+export { IoIosArrowForward as MyIosArrowForward } from 'react-icons/io';
+export { AiOutlineUnorderedList as MyAiOutlineUnorderedList } from 'react-icons/ai';
+export { IoIosArrowDown as MyIoIosArrowDown } from 'react-icons/io';
+export { IoIosArrowUp as MyIoIosArrowUp } from 'react-icons/io';
+
+export { IoIosArrowBack as MyIoIosArrowBack } from 'react-icons/io';
+export { IoIosArrowForward as MyIoIosArrowForward } from 'react-icons/io';
+export { IoIosClose as MyIoIosClose } from 'react-icons/io';
+export { ImPhone as MyImPhone } from 'react-icons/im';
+export { FaSearch as MyFaSearch } from 'react-icons/fa';
+export { HiMenu as MyHiMenu } from 'react-icons/hi';
+export { MdModeNight as MyMdModeNight } from 'react-icons/md';
+export { ImSun as MyImSun } from 'react-icons/im';
+export { CgDarkMode as MyCgDarkMode } from 'react-icons/cg';
+export { AiOutlineArrowUp as MyAiOutlineArrowUp } from 'react-icons/ai';
+export { GrFacebookOption as MyGrFacebookOption } from 'react-icons/gr';
+export { AiOutlineTwitter as MyAiOutlineTwitter } from 'react-icons/ai';
+export { FaTelegramPlane as MyFaTelegramPlane } from 'react-icons/fa';
+export { AiOutlineLinkedin as MyAiOutlineLinkedin } from 'react-icons/ai';
+export { BsThreeDots as MyBsThreeDots } from 'react-icons/bs';

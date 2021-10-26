@@ -1,0 +1,41 @@
+{
+	"name": "Next.JS Progressive Web App",
+	"short_name": "Next PWA",
+	"theme_color": "#ffffff",
+	"background_color": "#004740",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"scope": "/",
+	"start_url": "/",
+	"icons": [
+		{
+			"rel": "apple-touch-icon",
+			"src": "/apple-touch-icon.png",
+			"sizes": "180x180"
+		},
+		{
+			"rel": "icon",
+			"src": "/favicon-32x32.png",
+			"type": "image/png",
+			"sizes": "32x32"
+		},
+		{
+			"rel": "icon",
+			"src": "/favicon-16x16.png",
+			"type": "image/png",
+			"sizes": "16x16"
+		},
+
+		{
+			"src": "/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	],
+	"splash_pages": null
+}

@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+@import url('~react-image-lightbox/style.css');
+
+:root {
+      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      scroll-behavior: smooth;
+}
+
+body {
+      font-family: 'Roboto',
+            sans-serif;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
+      /* font-family:var(--font-sans) ;
+          font-family: "Helvetica Neue",
+          Helvetica,
+          Arial,
+          sans-serif; */
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      line-height: 1.4;
+}
+
+.text-primary {
+      color: var(--rs-text-primary);
+}
+
+/** wiget **/
+/* * widget* */
+.post:hover img {
+      transform: scale(1.05);
+}
+
+.widget-box-out-size>a>div {
+      transition: all 150ms ease-in-out;
+}
+
+.widget-box-out-size:hover>a>div {
+      transform: scale(1.05);
+}
+
+.category-box-out-size:hover>a {
+      transform: scale(1.03);
+}
+
+/** skeleton **/
+
+.skeleton-bg {
+      background-color: rgba(0, 0, 0, 0.11);
+      -webkit-animation: animation-c7515d 1.5s ease-in-out 0.5s infinite;
+      animation: skeleton 1.5s ease-in-out 0.5s infinite;
+
+}
+
+@keyframes skeleton {
+      0% {
+            background-color: rgba(0, 0, 0, .3);
+      }
+
+      50% {
+            background-color: rgba(0, 0, 0, .1);
+
+      }
+
+      100% {
+            background-color: rgba(0, 0, 0, .3);
+
+      }
+}
+
+/* * css for post editor* */
+
+
+/* article{
+      text-align:justify;
+} */
+.content-editor>* {
+      max-width: 100%;
+      overflow-wrap: break-word;
+      /* text-align: justify; */
+      /* word-break:; */
+}
+
+.content-editor #content a {
+      @apply text-primary-focus link
+}
+
+article h2,
+h3,
+h4,
+h5 {
+      margin: 1rem 0;
+}
+
+.content-editor h2,
+h3,
+h4,
+h5,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong {
+      @apply font-bold;
+      /* nếu như font weight đạm quá chữ sẽ xấu
+             */
+}
+
+.content-editor h2 {
+      @apply text-2xl;
+
+}
+
+.content-editor h3 {
+      @apply text-xl;
+
+}
+
+.content-editor h4 {
+      @apply text-lg;
+
+}
+
+.content-editor h5,
+h6 {
+      @apply text-base;
+}
+
+.content-editor p {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      line-height: 1.9rem;
+}
+
+.content-editor figure {
+      margin: 0
+}
+
+.content-editor blockquote {
+      overflow-wrap: break-word;
+      padding-right: 1.5em;
+      padding-left: 1.5em;
+      margin-left: 0;
+      margin-right: 0;
+      font-style: italic;
+      border-left: 5px solid #ccc;
+}
+
+.content-editor figure.image {
+      margin: 1.5rem auto;
+}
+
+.content-editor figure.media {
+      text-align: center;
+      margin: 30px 0;
+}
+
+/* figure.image-style-align-right::before,
+figure.image-style-align-right::after {
+      content: "";
+
+      clear: both;
+}
+figure.image-style-align-right {
+      float: right;
+}
+figure.image-style-align-left::before,
+figure.image-style-align-left::after {
+      content: "";
+      clear: both;
+}
+
+figure.image-style-align-left {
+      float: left;
+} */
+
+.content-editor .text-big {
+      font-size: 1.4rem;
+}
+
+.content-editor .text-huge {
+      font-size: 1.8rem;
+}
