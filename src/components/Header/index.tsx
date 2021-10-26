@@ -62,7 +62,9 @@ export default function HeaderApp() {
 			{/* logo màn hình lớn */}
 			<div className="w-full justify-center py-4 hidden md:flex">
 				<Link href="/">
-					<a className="text-5xl font-bold leading-snug text-primary-focus">Wiki stock</a>
+					<a className="text-5xl font-bold leading-snug text-primary-focus">
+						{dataAppSettings.appName}
+					</a>
 				</Link>
 			</div>
 			<hr className="w-full" />
@@ -81,7 +83,7 @@ export default function HeaderApp() {
 
 				<div className="flex-1 px-2 mx-2 inline-block md:hidden">
 					<Link href="/">
-						<a className="font-semibold text-primary-focus">Wiki stock</a>
+						<a className="font-semibold text-primary-focus">{dataAppSettings.appName}</a>
 					</Link>
 				</div>
 				<div className="hidden md:flex items-center lg:gap-4">
