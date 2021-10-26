@@ -1,11 +1,15 @@
-const serverApi = 'http://localhost:1337';
-const httpUrl = 'http://localhost:3000';
-// const serverApi = process.env.serverApi?.trim() || '';
-// const httpUrl = process.env.httpUrl_?.trim() || '';
+// const serverApi = 'http://localhost:1337';
+// const hostApi = 'localhost:1337';
+// const httpUrl = 'http://localhost:3000';
+
+const serverApi = 'https://api-blog-chung-khoan.herokuapp.com';
+const hostApi = 'api-blog-chung-khoan.herokuapp.com';
+
+const httpUrl = 'https://wikistock.vercel.app';
+
 // console.log('sever', serverApi + 1, typeof serverApi);
 // const url = new URL(serverApi);
 // console.log(url);
-const hostApi = 'localhost:1337';
 const qualityImage = 100;
 const limitFindUser = 20;
 const limitFindGroupProduct = 10;
