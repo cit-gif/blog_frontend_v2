@@ -64,7 +64,7 @@ h6 {
 
 .skeleton-bg {
       background-color: rgba(0, 0, 0, 0.11);
-      -webkit-animation: animation-c7515d 1.5s ease-in-out 0.5s infinite;
+      -webkit-animation: skeleton 1.5s ease-in-out 0.5s infinite;
       animation: skeleton 1.5s ease-in-out 0.5s infinite;
 
 }
