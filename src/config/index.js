@@ -2,8 +2,8 @@
 // const hostApi = 'localhost:1337';
 // const httpUrl = 'http://localhost:3000';
 
-const serverApi = 'https://api-blog-chung-khoan.herokuapp.com';
-const hostApi = 'api-blog-chung-khoan.herokuapp.com';
+const serverApi = 'https://strapiserverblogchungkhoan-production.up.railway.app';
+const hostApi = 'strapiserverblogchungkhoan-production.up.railway.app';
 
 const httpUrl = 'https://wikistock.vercel.app';
 
